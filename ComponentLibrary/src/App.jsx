@@ -1,4 +1,5 @@
 import Badge from './Components/Badges/index';
+import Banner from './Components/Banners/index';
 
 function App() {
   return (
@@ -24,6 +25,19 @@ function App() {
         <Badge shape="pill" color="purple" text="Badge" />
         <Badge shape="pill" color="pink" text="Badge" />
       </Badge.Container>
+
+      <Banner.Container>
+        <Banner status="success"></Banner>
+      </Banner.Container>
+      <Banner.Container>
+        <Banner status="warning" />
+      </Banner.Container>
+      <Banner.Container>
+        <Banner status="error" />
+      </Banner.Container>
+      <Banner.Container>
+        <Banner status="neutral" />
+      </Banner.Container>
     </>
   );
 }
