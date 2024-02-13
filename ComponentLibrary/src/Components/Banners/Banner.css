@@ -8,6 +8,22 @@
   background-color: #ecfdf5;
   color: #065f46;
   font-size: 0.5rem;
+  width: 80em;
+}
+
+.banner-header {
+  display: flex;
+  align-items: center;
+}
+
+.header-icon {
+  margin-right: 10px;
+  height: 20px;
+}
+
+.header-text {
+  font-size: 14px;
+  margin: 0 0 10px 30px;
 }
 
 .banner-success {

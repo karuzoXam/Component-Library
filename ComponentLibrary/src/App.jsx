@@ -27,16 +27,48 @@ function App() {
       </Badge.Container>
 
       <Banner.Container>
-        <Banner status="success"></Banner>
+        <Banner
+          status="success"
+          title="Congratulations"
+          text="Lorem ipsum lorem ipsum slard sddrd ksliwn"
+        />
       </Banner.Container>
       <Banner.Container>
-        <Banner status="warning" />
+        <Banner
+          status="warning"
+          title="Attention"
+          text="Lorem ipsum lorem ipsum slard sddrd ksliwn"
+        />
       </Banner.Container>
       <Banner.Container>
-        <Banner status="error" />
+        <Banner
+          status="error"
+          title="There is a problem with your application"
+          text="Lorem ipsum lorem ipsum slard sddrd ksliwn"
+        />
       </Banner.Container>
       <Banner.Container>
-        <Banner status="neutral" />
+        <Banner
+          status="neutral"
+          title="Update available"
+          text="Lorem ipsum lorem ipsum slard sddrd ksliwn"
+        />
+      </Banner.Container>
+
+      <Banner.Container>
+        <Banner status="success" title="Congratulations" />
+      </Banner.Container>
+
+      <Banner.Container>
+        <Banner status="warning" title="Congratulations" />
+      </Banner.Container>
+
+      <Banner.Container>
+        <Banner status="error" title="Congratulations" />
+      </Banner.Container>
+
+      <Banner.Container>
+        <Banner status="neutral" title="Congratulations" />
       </Banner.Container>
     </>
   );
