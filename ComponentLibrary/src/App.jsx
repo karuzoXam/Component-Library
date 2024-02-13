@@ -1,6 +1,8 @@
 import Badge from './Components/Badges/index';
 import Banner from './Components/Banners/index';
 import Card from './Components/Cards/index';
+// import Testimonial from './Components/Testimonials/index';
+import Testimonial from './Components/Testimonials/Testimonial';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faCloudArrowUp } from '@fortawesome/free-regular-svg-icons';
@@ -76,14 +78,24 @@ function App() {
         <Banner status="neutral" title="Congratulations" />
       </Banner.Container> */}
 
-      <Card.Container>
+      {/* <Card.Container>
         <Card
           icon={<FontAwesomeIcon icon={faCloudArrowUp} />}
           iconColor="#3F75FE"
           title="Easy Deployment"
           text="Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis."
         />
-      </Card.Container>
+      </Card.Container> */}
+
+      {/* <Testimonial.Container></Testimonial.Container> */}
+      <div className="testimonial-container">
+        <Testimonial
+          imgSrc=".\src\assets\Image.png"
+          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. "
+          name="Max Mustermann"
+          job="Workcation,CEO"
+        />
+      </div>
     </>
   );
 }

@@ -1,0 +1,26 @@
+.testimonial {
+  background-color: #2545b8;
+  display: flex;
+}
+
+.testimonial-img {
+  width: 384px;
+  height: 464px;
+}
+
+.testimonial-qoutes {
+  width: 43px;
+  height: 35px;
+}
+
+.testimonial-text {
+}
+
+.testimonial-info {
+}
+
+.testimonial-name {
+}
+
+.testimonial-job {
+}
