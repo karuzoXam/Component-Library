@@ -2,6 +2,7 @@ import Badge from './Components/Badges/index';
 import Banner from './Components/Banners/index';
 import Card from './Components/Cards/index';
 // import Testimonial from './Components/Testimonials/index';
+// import Testimonial from './Components/Testimonials/Testimonial22';
 import Testimonial from './Components/Testimonials/Testimonial';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -87,13 +88,12 @@ function App() {
         />
       </Card.Container> */}
 
-      {/* <Testimonial.Container></Testimonial.Container> */}
       <div className="testimonial-container">
         <Testimonial
           imgSrc=".\src\assets\Image.png"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. "
           name="Max Mustermann"
-          job="Workcation,CEO"
+          job="Workcation, CEO"
         />
       </div>
     </>
