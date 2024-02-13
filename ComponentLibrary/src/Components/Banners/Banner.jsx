@@ -1,3 +1,5 @@
+import './Banner.css';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faCircleCheck,
