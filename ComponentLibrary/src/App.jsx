@@ -1,8 +1,6 @@
 import Badge from './Components/Badges/index';
 import Banner from './Components/Banners/index';
-import Card from './Components/Cards/index';
-// import Testimonial from './Components/Testimonials/index';
-// import Testimonial from './Components/Testimonials/Testimonial22';
+import Card from './Components/Cards/Card';
 import Testimonial from './Components/Testimonials/Testimonial';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -79,14 +77,12 @@ function App() {
         <Banner status="neutral" title="Congratulations" />
       </Banner.Container> */}
 
-      {/* <Card.Container>
-        <Card
-          icon={<FontAwesomeIcon icon={faCloudArrowUp} />}
-          iconColor="#3F75FE"
-          title="Easy Deployment"
-          text="Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis."
-        />
-      </Card.Container> */}
+      <Card
+        icon={<FontAwesomeIcon icon={faCloudArrowUp} />}
+        iconColor="#3F75FE"
+        title="Easy Deployment"
+        text="Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis."
+      />
 
       <Testimonial
         imgSrc=".\src\assets\Image.png"

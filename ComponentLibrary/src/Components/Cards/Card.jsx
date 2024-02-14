@@ -10,12 +10,14 @@ export default function Card({
   text,
 }) {
   return (
-    <div className="card">
-      <div className="card-icon" style={{ backgroundColor: iconColor }}>
-        {icon}
+    <div className="card-container">
+      <div className="card">
+        <div className="card-icon" style={{ backgroundColor: iconColor }}>
+          {icon}
+        </div>
+        <h1 className="card-title">{title}</h1>
+        <p className="card-text">{text}</p>
       </div>
-      <h1 className="card-title">{title}</h1>
-      <p className="card-text">{text}</p>
     </div>
   );
 }
