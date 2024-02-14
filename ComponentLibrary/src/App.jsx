@@ -1,4 +1,4 @@
-import Badge from './Components/Badges/index';
+import Badge from './Components/Badges/Badge';
 import Banner from './Components/Banners/Banner';
 import Card from './Components/Cards/Card';
 import Testimonial from './Components/Testimonials/Testimonial';
@@ -10,7 +10,7 @@ import { faCloudArrowUp } from '@fortawesome/free-solid-svg-icons';
 function App() {
   return (
     <>
-      {/* <Badge.Container>
+      <div className="badge-container">
         <Badge shape="square" color="grey" text="Badge" />
         <Badge shape="square" color="red" text="Badge" />
         <Badge shape="square" color="yellow" text="Badge" />
@@ -19,9 +19,8 @@ function App() {
         <Badge shape="square" color="indigo" text="Badge" />
         <Badge shape="square" color="purple" text="Badge" />
         <Badge shape="square" color="pink" text="Badge" />
-      </Badge.Container>
-
-      <Badge.Container>
+      </div>
+      <div className="badge-container">
         <Badge shape="pill" color="grey" text="Badge" />
         <Badge shape="pill" color="red" text="Badge" />
         <Badge shape="pill" color="yellow" text="Badge" />
@@ -30,36 +29,28 @@ function App() {
         <Badge shape="pill" color="indigo" text="Badge" />
         <Badge shape="pill" color="purple" text="Badge" />
         <Badge shape="pill" color="pink" text="Badge" />
-      </Badge.Container> */}
+      </div>
 
-      {/* <Banner.Container>
-        <Banner
-          status="success"
-          title="Congratulations"
-          text="Lorem ipsum lorem ipsum slard sddrd ksliwn"
-        />
-      </Banner.Container>
-      <Banner.Container>
-        <Banner
-          status="warning"
-          title="Attention"
-          text="Lorem ipsum lorem ipsum slard sddrd ksliwn"
-        />
-      </Banner.Container>
-      <Banner.Container>
-        <Banner
-          status="error"
-          title="There is a problem with your application"
-          text="Lorem ipsum lorem ipsum slard sddrd ksliwn"
-        />
-      </Banner.Container>
-      <Banner.Container>
-        <Banner
-          status="neutral"
-          title="Update available"
-          text="Lorem ipsum lorem ipsum slard sddrd ksliwn"
-        />
-      </Banner.Container> */}
+      <Banner
+        status="success"
+        title="Congratulations"
+        text="Lorem ipsum lorem ipsum slard sddrd ksliwn"
+      />
+      <Banner
+        status="warning"
+        title="Attention"
+        text="Lorem ipsum lorem ipsum slard sddrd ksliwn"
+      />
+      <Banner
+        status="error"
+        title="There is a problem with your application"
+        text="Lorem ipsum lorem ipsum slard sddrd ksliwn"
+      />
+      <Banner
+        status="neutral"
+        title="Update available"
+        text="Lorem ipsum lorem ipsum slard sddrd ksliwn"
+      />
 
       <Banner status="success" title="Congratulations" />
 

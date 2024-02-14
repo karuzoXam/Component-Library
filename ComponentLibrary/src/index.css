@@ -12,6 +12,13 @@ body {
   font-family: 'Inter', monospace, sans-serif;
 }
 
+.badge-container {
+  margin: 2em 2em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
 .testimonial-container {
   display: flex;
   align-items: center;
