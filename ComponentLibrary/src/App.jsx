@@ -88,14 +88,12 @@ function App() {
         />
       </Card.Container> */}
 
-      <div className="testimonial-container">
-        <Testimonial
-          imgSrc=".\src\assets\Image.png"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. "
-          name="Max Mustermann"
-          job="Workcation, CEO"
-        />
-      </div>
+      <Testimonial
+        imgSrc=".\src\assets\Image.png"
+        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. "
+        name="Max Mustermann"
+        job="Workcation, CEO"
+      />
     </>
   );
 }
