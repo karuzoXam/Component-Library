@@ -41,16 +41,18 @@ export default function Banner({ status, title, text }) {
   }
 
   return (
-    <div className={`banner banner-${status}`}>
-      <div className="banner-header">
-        {icon}
-        <h1>{title}</h1>
+    <div className="banner-container">
+      <div className={`banner banner-${status}`}>
+        <div className="banner-header">
+          {icon}
+          <h1>{title}</h1>
+        </div>
+        {text && (
+          <p className="header-text" style={{ color: textColor }}>
+            {text}
+          </p>
+        )}
       </div>
-      {text && (
-        <p className="header-text" style={{ color: textColor }}>
-          {text}
-        </p>
-      )}
     </div>
   );
 }

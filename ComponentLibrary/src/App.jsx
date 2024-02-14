@@ -1,5 +1,5 @@
 import Badge from './Components/Badges/index';
-import Banner from './Components/Banners/index';
+import Banner from './Components/Banners/Banner';
 import Card from './Components/Cards/Card';
 import Testimonial from './Components/Testimonials/Testimonial';
 
@@ -61,21 +61,13 @@ function App() {
         />
       </Banner.Container> */}
 
-      {/* <Banner.Container>
-        <Banner status="success" title="Congratulations" />
-      </Banner.Container>
+      <Banner status="success" title="Congratulations" />
 
-      <Banner.Container>
-        <Banner status="warning" title="Congratulations" />
-      </Banner.Container>
+      <Banner status="warning" title="Congratulations" />
 
-      <Banner.Container>
-        <Banner status="error" title="Congratulations" />
-      </Banner.Container>
+      <Banner status="error" title="Congratulations" />
 
-      <Banner.Container>
-        <Banner status="neutral" title="Congratulations" />
-      </Banner.Container> */}
+      <Banner status="neutral" title="Congratulations" />
 
       <Card
         icon={<FontAwesomeIcon icon={faCloudArrowUp} />}
