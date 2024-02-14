@@ -18,9 +18,3 @@ body {
   flex-wrap: wrap;
   gap: 1em;
 }
-
-.testimonial-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}

@@ -1,3 +1,9 @@
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .image-icon,
 .wrapper-image {
   align-self: stretch;
