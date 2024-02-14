@@ -11,3 +11,9 @@ body,
 body {
   font-family: 'Inter', monospace, sans-serif;
 }
+
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
